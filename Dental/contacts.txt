@@ -1,0 +1,9 @@
+contactDetails{
+Hospital Name: Hita Dentals.
+Phone Number: +1(408)963-7546
+Hospital Address: 190 Ryland Street,San Jose,CA-95110.
+Email:b.hita@hdentals.com
+daysOpen{
+Monday: Closed,Tuesday: 10AM-5PM,Wednesday: 10AM-5PM,Thursday: 10AM-5PM,Friday: 8AM-8PM,Saturday: 8AM-8PM,Sunday: Closed
+}
+}

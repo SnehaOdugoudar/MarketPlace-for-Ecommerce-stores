@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Quest Games Registration Page</title>
+
+  <link rel="stylesheet" type="text/css" href="pixelquest/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+
+      body{
+        background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.php">
+      <img src="pixelquest/images/logo.png" alt="Game Realm Games">
+    </a>
+    <h2>Registration</h2>
+</div>
+<div class="login_wrapper">
+  <h1 style="font-family: cursive">Register</h1><br><br>
+  
+  <form action="registration.php" method="POST" autocomplete="off">
+    <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+    <input type="email" name="email" id ="email" placeholder="email address" required>
+    <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+    <input type="text" name="home_phone" id="home_phone" placeholder="Home Phone Number" required>
+    <input type="text" name="cell_phone" id="cell_phone" placeholder="Mobile Phone Number" required><br><br>
+    <input type="text" name="home_address" id="home_address" placeholder="Home Address" required><br><br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <br><br>
+</div>
+</body>
+</html>

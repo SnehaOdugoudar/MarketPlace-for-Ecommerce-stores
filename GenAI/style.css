@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+header {
+    background-color: #3a3a3a;
+    color: #0ff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+nav a {
+    padding: 14px 20px;
+    display: inline-block;
+    color: #0ff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #2a2a2a;
+}
+
+#content section {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #2a2a2a;
+    background-color: #1a1a1a;
+    color: #0ff;
+}
+
+#content section.active {
+    display: block;
+}
+
+footer {
+    background-color: #3a3a3a;
+    color: #0ff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+input[type="submit"] {
+ background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+button {
+ 
+background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    color: #0ff;
+}
+
+/* Cyberpunk Style for Text Boxes */
+#register input[type="text"], #register input[type="email"], #register input[type="password"], 
+#login input[type="text"], #login input[type="password"], #login input[type="email"],
+#search input[type="first_name"], #search input[type="last_name"], #search input[type="email"], #search input[type="home_phone"], #search input[type="cell_phone"]
+ {
+    background-color: #121212;
+    border: 2px solid #0ff;
+    border-radius: 4px;
+    color: #0ff;
+    padding: 10px;
+}
+
+#register input[type="text"]:focus, #register input[type="email"]:focus, #register input[type="password"]:focus,
+#login input[type="text"]:focus, #login input[type="password"]:focus {
+    border: 2px solid #00cccc;
+    outline: none;
+}
+
+/* Smooth Transitions */
+section {
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,31 @@
+<?php
+$host = 'sql200.infinityfree.com';
+$username = 'if0_37526668'; // Your database username
+// $password = 'Password@123'; // Your database password
+$password = 'Hosting272'; // Your database password
+$database = 'if0_37526668_marketplace'; // Your database name
+$port = 3306; // Default MySQL port
+
+// Connect to MySQL
+$link = new mysqli($host, $username, $password, $database, $port);
+
+// Check connection
+// if ($link->connect_error) {
+//   die("Connection failed: " . $link->connect_error);
+// }
+if ($link->connect_error) {
+  die("Connection failed: " . $link->connect_error);
+} else {
+  echo "Connected successfully!";
+}
+?>
+
+
+
+ <!-- <div id="Users" class="tabcontent">
+  <?php 
+  if ($is_admin_logged_in) {
+    echo "<button class='button' onclick=\"location.href='curl.php';\" style='width: 160px;'>view all users</button><br><br><br>";
+  }
+  ?>
+  </div> -->
